@@ -1,0 +1,32 @@
+# Core frameworks
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.4.2
+python-multipart==0.0.6
+
+# Text similarity tools
+rapidfuzz==3.5.2
+jellyfish==1.0.1
+phonetics==1.0.5
+
+# For semantic similarity (placeholder - would be used in production)
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4  # Use faiss-gpu for GPU acceleration
+
+# For cross-language support (placeholder)
+fasttext==0.9.2
+transformers==4.35.0
+
+# Database clients
+elasticsearch==8.10.1  # For Elasticsearch integration
+redis==5.0.1  # For caching
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.25.1
+numpy==1.26.1
+pandas==2.1.2
+
+# Optional features
+weasyprint==60.1  # For PDF generation
+sentry-sdk==1.32.0  # For error tracking 
